@@ -8,7 +8,9 @@ export const Tag = (props) => {
             fontSize:props.size,
             color:props.color,
             display:'inline-block',
-            padding:'5px 10px'
+            padding:'5px 10px',
+            fontFamily: 'Righteous',
+            ...props.add
         }}
     >{props.children}</div>
     if (props.link) {

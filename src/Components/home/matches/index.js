@@ -11,13 +11,13 @@ const MatchesHome = () => {
                     color="#fff"
                 
                 >Matches</Tag><br/>
-                <Blocks/>
+                <Blocks/> 
                 <Tag
                     bck="#fff"
                     size="20px"
                     color="#0e1731"
                     link={true}
-                    linkto="/the_team"
+                    linkto="/the_team" 
 
                 >See more Link</Tag>
                 <br/>
